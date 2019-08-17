@@ -40,7 +40,7 @@ class String
     
     
     
-    array.delete_if{ |n| n == "" } 
+  array.delete_if{ |n| n.empty? } 
     
    
       
