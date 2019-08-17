@@ -33,7 +33,7 @@ class String
   def count_sentences
     
     
-    string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
+    
     array = self.split(/[^\w\s\,]/)
     
     ## now you just have to remove the empty string 
