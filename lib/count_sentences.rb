@@ -34,7 +34,7 @@ class String
     
     
     string = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
-    array = string.split(/[^\w\s\,]/)
+    array = self.split(/[^\w\s\,]/)
     
     ## now you just have to remove the empty string 
     
