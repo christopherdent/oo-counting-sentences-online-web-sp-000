@@ -40,10 +40,9 @@ class String
     
     
     
-    array.each do |string|
-      if string.empty? 
-        array.reject 
-      end 
+    array.delete_if{ |n| n == "" } 
+    
+   
       
     end 
     binding.pry 
