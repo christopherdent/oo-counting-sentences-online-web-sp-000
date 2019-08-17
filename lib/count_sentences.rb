@@ -45,8 +45,7 @@ class String
    
       
      
-    binding.pry 
-    
+ 
     sentences = array.count 
     
     p sentences 
