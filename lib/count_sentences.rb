@@ -44,7 +44,7 @@ class String
     
    
       
-    end 
+     
     binding.pry 
     
     sentences = array.count 
