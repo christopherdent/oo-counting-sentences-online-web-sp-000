@@ -38,19 +38,12 @@ class String
     
     ## now you just have to remove the empty string 
     
+    array.delete_if{ |n| n.empty? } 
     
-    
-  array.delete_if{ |n| n.empty? } 
-    
-   
-      
-     
- 
     sentences = array.count 
     
     p sentences 
    
     
-  
   end
 end
